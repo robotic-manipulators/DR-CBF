@@ -177,6 +177,34 @@
     ]
   }
   </script>
+
+   <style>
+  .results-carousel .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .results-carousel .item img {
+    max-width: 90%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .results-carousel .item img {
+      max-height: 300px;
+    }
+  }
+</style>
+
+  
 </head>
 <body>
 
