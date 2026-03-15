@@ -74,7 +74,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>Distributionally Robust Safe Control of Robotic Manipulators in Dynamic Environments</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -182,19 +182,23 @@
   .results-carousel .item {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;     
     text-align: center;
+    background: transparent;  
+    padding: 0;        
+    height: auto;      
+    min-height: 0;        
+    border: none; 
+    box-shadow: none;
   }
 
   .results-carousel .item img {
-    max-width: 90%;
-    max-height: 400px;
-    width: auto;
+    max-width: 90%;    max-height: 400px;    width: auto;
     height: auto;
     object-fit: contain;
     display: block;
     margin: 0 auto;
-    border-radius: 8px;
+    border-radius: 8px; 
   }
 
   @media screen and (max-width: 768px) {
@@ -202,7 +206,12 @@
       max-height: 300px;
     }
   }
+
+  .carousel {
+    background: transparent;
+  }
 </style>
+
 
   
 </head>
