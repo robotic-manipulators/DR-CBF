@@ -1,6 +1,6 @@
-# Academic Project Page Template
+# Distributionally Robust Safe Control of Robotic Manipulators in Dynamic Environments
 
-> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).
+> **Update (17 March 2026)**
 
 A clean, responsive template for academic project pages.
 
@@ -66,12 +66,7 @@ The template includes meta tags for better search engine visibility and social m
 
 Create a 1200x630px social preview image at `static/images/social_preview.png`.
 
-## Tips
 
-- Compress images with [TinyPNG](https://tinypng.com)
-- Use YouTube for large videos (>10MB)  
-- Replace the favicon in `static/images/`
-- Works with GitHub Pages
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
