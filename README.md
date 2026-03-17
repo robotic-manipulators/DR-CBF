@@ -2,32 +2,10 @@
 
 > **Update (17 March 2026)**
 
-A clean, responsive template for academic project pages.
-
-
-Example project pages built using this template are:
-- https://horwitz.ai/probex
-- https://vision.huji.ac.il/probegen
-- https://horwitz.ai/mother
-- https://horwitz.ai/spectral_detuning
-- https://vision.huji.ac.il/ladeda
-- https://vision.huji.ac.il/dsire
-- https://horwitz.ai/podd
-- https://dreamix-video-editing.github.io
-- https://horwitz.ai/conffusion
-- https://horwitz.ai/3d_ads/
-- https://vision.huji.ac.il/ssrl_ad
-- https://vision.huji.ac.il/deepsim
-
-
-
-## Start using the template
-To start using the template click on `Use this Template`.
-
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
-
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
+## Description
+We implement and compare two Control Barrier Function (CBF) approaches for a UR3 manipulator avoiding moving spherical obstacles, using vision-based measurements with added Gaussian noise:
+- **Nominal CBF** (`src/nominal_CBF_single_trial.py`, `src/nominal_CBF_multiple_trials.py`) – 
+- **Distributionally Robust CBF** (`src/DR_CBF_single_trial.py`, `src/DR_CBF_multiple_trials.py`) – 
 
 ## What's New
 
