@@ -8,10 +8,10 @@ We implement and compare two Control Barrier Function (CBF) approaches for a UR3
 - **Distributionally Robust CBF** (`src/DR_CBF_single_trial.py`, `src/DR_CBF_multiple_trials.py`)
 
 ## Requirements
-- Python >=3.9–3.13 (tested with Python 3.13.5)
-- PyBullet >=3.2.7
-- NumPy >=2.0
-- SciPy >=1.7
+- Python: tested with Python 3.13.5
+- PyBullet: tested with PyBullet 3.2.7
+- NumPy: tested with Mumpy 2.1.3
+- SciPy: tested with SciPy 1.15.3
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
